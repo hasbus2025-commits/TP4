@@ -1,0 +1,45 @@
+/* css/style.css */
+
+/* Animation au survol des cartes de commandes */
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Personnalisation des cartes d'indicateurs (KPIs) */
+#kpi-container .card {
+  border-left: 4px solid #0d6efd !important;
+}
+
+/* Style de la zone de recherche et des filtres */
+#search-input, #status-filter, #category-filter {
+  border-radius: 8px;
+}
+
+#search-input:focus, #status-filter:focus, #category-filter:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+/* Modal Bootstrap */
+.modal-content {
+  border-radius: 12px;
+  border: none;
+}
+
+.modal-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* Tableaux à l'intérieur du modal */
+.table th {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}

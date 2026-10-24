@@ -1,0 +1,10 @@
+[
+  { "id": 10, "name": "Laptop Pro", "category": "Informatique", "price": 8500, "stock": 8 },
+  { "id": 11, "name": "Souris Sans Fil", "category": "Informatique", "price": 180, "stock": 25 },
+  { "id": 12, "name": "Clavier Mécanique", "category": "Informatique", "price": 450, "stock": 15 },
+  { "id": 13, "name": "Ecran 27 pouces", "category": "Informatique", "price": 2200, "stock": 6 },
+  { "id": 14, "name": "Bureau Ergonomique", "category": "Mobilier", "price": 3100, "stock": 4 },
+  { "id": 15, "name": "Chaise de Bureau", "category": "Mobilier", "price": 1400, "stock": 10 },
+  { "id": 16, "name": "Casque Audio Bluetooth", "category": "Accessoires", "price": 650, "stock": 12 },
+  { "id": 17, "name": "Support Ordinateur", "category": "Accessoires", "price": 250, "stock": 20 }
+]
